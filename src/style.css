@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #772953;
+    height: 90vh;
+}
+
+#app {
+    font-family: Monospace;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #00aa00;
+    background-color: #333;
+    min-width: 90%;
+    min-height: 70%;
+    max-height: 70%;
+    max-width: 90%;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    overflow-y: auto;
+    padding-top: .25rem;
+}
+
+#input-area {
+   border: 1px solid #333;
+   outline: none;
+   margin-top: .5rem;
+   user-select: none;
+   caret-color: #333;
+   background-color: #333;
+   margin-top: 0;
+   color: #333;
+}
+
+#prompt {
+    margin-left: .5rem;
+    display: inline-block;
+    font-weight: 700;
+    user-select: none;
+    margin-bottom: 0;
+}
+
+#input-field {
+    margin-top: 0;
+    margin-left: .5rem;
+    display: inline-block;
+    font-weight: 600;
+    user-select: none;
+}
+
+#residue {
+    margin-left: .5rem;
+    margin-bottom: .125rem;
+    font-weight: 700;
+    user-select: none;
+    line-height: 1.6;
+}
+
+#cursor {
+    font-weight: 900;
+    margin-top: .5rem;
+    user-select: none;
+}
+
+.error {
+    font-weight: 500;
+    color: tomato;
+}
+
+.projects {
+    font-weight: 500;
+    color: tomato;
+}
+
+.artbucket u{
+    color: yellow;
+    font-weight: 600;
+}
+
+.artbucket a {
+    color: #E95420;
+}
+
+.artbucket {
+    font-weight: 500;
+    color: turquoise;
+}
+
+.help {
+    font-weight: 500;
+    color: gold;
+}
+
+.about {
+    font-weight: 500;
+    color: turquoise;
+}
+
+.git {
+    color: beige;
+}
+
+.wapp {
+    color: lightgreen;
+}
+
+.linked {
+    color: skyblue;
+}
+
+@keyframes blink {
+    from, to {
+        color: transparent;
+    }
+
+    50% {
+        color: #00aa00;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    #app {
+        min-width: 800px;
+        max-width: 800px;
+    }
+}
