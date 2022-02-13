@@ -8,7 +8,7 @@ const d=function(){const s=document.createElement("link").relList;if(s&&s.suppor
               clear: clear the screen<br></p>`,m=`[visitor@mo-shaz~]$ about<br>
                <p class="about">
                Mohammed Shaz<br>
-               NodeJS Developer<br>
+               FullStack Developer<br>
                Kerala, India<br>
                <a class="git" href="https://github.com/mo-shaz">Github</a>
                <a class="wapp" href="https://wa.me/+919995982023">WhatsApp</a>
