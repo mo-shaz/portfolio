@@ -36,7 +36,7 @@ const about = `[visitor@mo-shaz~]$ about<br>
                Kerala, India<br>
                <a class="git" href="https://github.com/mo-shaz">Github</a>
                <a class="wapp" href="https://wa.me/+919995982023">WhatsApp</a>
-               <a class="linked" href="https://www.linkedin.com/in/mohammed-s-6a834191">LinkedIn</a><br></p>`
+               <a class="linked" href="https://www.linkedin.com/in/mo-shaz">LinkedIn</a><br></p>`
 
 const projects = `[visitor@mo-shaz~]$ projects<br>
                   <p class="projects">
